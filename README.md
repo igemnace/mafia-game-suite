@@ -48,12 +48,12 @@ Popular roles include:
    line.
 2. Similarly, add all roles to the `roles` file. The Mafia role has to be
    declared but the Civilian role does not. If more than one of a role is
-   required (e.g. two Mafia players), add two entries correspondingly.
+   required (e.g. two Mafia players), add the corresponding number of entries.
 3. Run the `generate_roles.sh` script. This will populate the `secret` file with
    a randomized list of players with role assignments.
 4. Inform each player of their role.
 
-*Note:* To help ensure that players only see their own roles and note someone
+*Note:* To help ensure that players only see their own roles and not someone
 else's, it is recommended never to open the `secret` file in a text editor.
 
 Instead, make use of `grep`. `grep John secret` will display only the line
